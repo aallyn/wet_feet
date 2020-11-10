@@ -23,7 +23,7 @@ RUN install2.r --error \
     
 
 # Installation of non-CRAN packages
-RUN R -e "devtools::install_github('gulfofmaine/gmri', upgrade = 'never')"
+# RUN R -e "devtools::install_github('gulfofmaine/gmri', upgrade = 'never')"
 # RUN R -e "devtools::install_github('ropensci/rnaturalearthdata', upgrade = 'never')"
 # RUN R -e "devtools::install_github('ropensci/rnaturalearthhires', upgrade = 'never')"
 
