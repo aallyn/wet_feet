@@ -1,7 +1,7 @@
 ### Dockerfile
 
 # Docker Base Image for R-Shiny Environment
-FROM rocker/geospatial:3.6.1
+FROM rocker/verse:latest
 
 # Installing Spatial Library Dependencies
 RUN apt-get update \
