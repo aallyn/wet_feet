@@ -11,6 +11,6 @@ services:
         ports: 
             - "8787:8787"
         # Mapping the connections between things on our local system to the docker container
-        volumes:
-            - ./R:/home/R
-            - ./data:/home/data
+        #volumes:
+        #    - ./R:/home/R
+        #    - ./data:/home/data
